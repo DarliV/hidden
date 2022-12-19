@@ -1,3 +1,9 @@
+Nuk te le ne balte jQuery
+jQuery("body").on("click", ".CLASS_NAME_HERE", function(event) {
+    
+});
+
+
 
 Ben show modal duke bere formen submit
 jQuery.ajax({
