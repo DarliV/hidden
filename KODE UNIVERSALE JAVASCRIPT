@@ -1,0 +1,11 @@
+
+Ben show modal duke bere formen submit
+jQuery.ajax({
+    type: "POST",
+    url: "https://smartmobile.iekspres.com/api/dashboard/application/",
+    dataType: "JSON",
+    data: jQuery("#loginForm").serialize(),
+    success: function(response) {
+    }
+});
+
